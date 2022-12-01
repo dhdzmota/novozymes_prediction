@@ -1,7 +1,27 @@
-novozymes_enzyme_stability_prediction
+Novozymes Enzyme Stability Prediction
 ==============================
 
-This project tries to solve the Kaggle problem named: Novozymes Enzyme Stability Prediction.
+This project aims to address a featured prediction competition problem from the Kaggle plataform named: __Novozymes Enzyme Stability Prediction__.
+The objective is to identify the thermostable mutations in enzymes. In other words, the goal is to determine the change on the thermostability (tm) (also known as melting temperature) of enzyme variants.
+This is done through the analysis of the effect on single (or multiple) mutation(s) in a protein sequence.
+
+For instance, lets say we have the following protein sequence, with it's corresponding tm:
+
+`sequence, tm = "PROTEINSEQUENCE", 65`
+
+And a mutation of the sequence
+
+`mut_sequence, new_tm = "PROTEINQEQUENCE", 60`
+
+Our task will be to predict the `new_tm` with the `sequence` and `mut_sequence` information.
+
+For more information you can access the following [link](https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/overview/description)
+
+
+
+![](./img1.jpg)
+
+
 
 Project Organization
 ------------
@@ -53,3 +73,13 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+--------
+
+Important dates:
+
+- September 21, 2022 - Start Date.
+- December 27, 2022 - Entry Deadline. You must accept the competition rules before this date in order to compete.
+- December 27, 2022* - Team Merger Deadline. This is the last day participants may join or merge teams.
+- January 3, 2023 - Final Submission Deadline.
